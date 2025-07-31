@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Vtiger_Framework.CreateOrgGroup">
+        <methods>
+          <include name="closeTheBrowser"/>
+          <include name="login"/>
+          <include name="closeConnectionWithDB"/>
+          <include name="logout"/>
+          <include name="getConnectionToDB"/>
+          <include name="launchTheBrowser"/>
+          <include name="createNewOrgTest_Excel"/>
+          <include name="closeParalelExe"/>
+          <include name="conParallelExe"/>
+          <include name="createNewOrgTest_Excel_3rd_script"/>
+        </methods>
+      </class> <!-- Vtiger_Framework.CreateOrgGroup -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="0" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite Execution started - Configure the Reports]]>
+    </line>
+    <line>
+      <![CDATA[Configure parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[createContactModule_1st Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createContactModule_1st Test Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[createContactModule_2nd Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createContactModule_2nd Test Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[createContactModule_3rd Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createContactModule_3rd Test Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest Test Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest_Excel Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest_Excel Test Execution Skipped]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest_Excel_3rd_script Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest_Excel_3rd_script Test Execution Skipped]]>
+    </line>
+    <line>
+      <![CDATA[Close Configuration of parallel Execution]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-31T16:12:00 IST" name="Suite" finished-at="2025-07-31T16:14:54 IST" duration-ms="174040">
+    <groups>
+      <group name="regression">
+        <method signature="CreateContactGroup.createContactModule_1st()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" name="createContactModule_1st" class="Vtiger_Framework.CreateContactGroup"/>
+        <method signature="CreateContactGroup.createContactModule_2nd()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" name="createContactModule_2nd" class="Vtiger_Framework.CreateContactGroup"/>
+        <method signature="CreateContactGroup.createContactModule_3rd()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" name="createContactModule_3rd" class="Vtiger_Framework.CreateContactGroup"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateOrgGroup.createNewOrgTest()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" name="createNewOrgTest" class="Vtiger_Framework.CreateOrgGroup"/>
+        <method signature="CreateOrgGroup.createNewOrgTest_Excel()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" name="createNewOrgTest_Excel" class="Vtiger_Framework.CreateOrgGroup"/>
+        <method signature="CreateOrgGroup.createNewOrgTest_Excel_3rd_script()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" name="createNewOrgTest_Excel_3rd_script" class="Vtiger_Framework.CreateOrgGroup"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-07-31T16:12:00 IST" name="Test" finished-at="2025-07-31T16:14:54 IST" duration-ms="174040">
+      <class name="Vtiger_Framework.CreateContactGroup">
+        <test-method is-config="true" signature="getConnectionToDB()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:00 IST" name="getConnectionToDB" finished-at="2025-07-31T16:12:00 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConnectionToDB -->
+        <test-method is-config="true" signature="conParallelExe()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:00 IST" name="conParallelExe" finished-at="2025-07-31T16:12:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Configure parallel Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- conParallelExe -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:00 IST" name="launchTheBrowser" finished-at="2025-07-31T16:12:03 IST" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:03 IST" name="login" finished-at="2025-07-31T16:12:05 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContactModule_1st()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:05 IST" name="createContactModule_1st" finished-at="2025-07-31T16:12:29 IST" duration-ms="24236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createContactModule_1st Test Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createContactModule_1st Test Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactModule_1st -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:29 IST" name="logout" finished-at="2025-07-31T16:12:35 IST" duration-ms="6221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:35 IST" name="login" finished-at="2025-07-31T16:12:36 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContactModule_2nd()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:36 IST" name="createContactModule_2nd" finished-at="2025-07-31T16:12:58 IST" duration-ms="21644" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createContactModule_2nd Test Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createContactModule_2nd Test Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactModule_2nd -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:12:58 IST" name="logout" finished-at="2025-07-31T16:13:03 IST" duration-ms="4989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:13:03 IST" name="login" finished-at="2025-07-31T16:13:04 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContactModule_3rd()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:13:04 IST" name="createContactModule_3rd" finished-at="2025-07-31T16:14:09 IST" duration-ms="65598" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createContactModule_3rd Test Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createContactModule_3rd Test Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactModule_3rd -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:14:09 IST" name="logout" finished-at="2025-07-31T16:14:15 IST" duration-ms="5081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:14:15 IST" name="closeTheBrowser" finished-at="2025-07-31T16:14:15 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeParalelExe()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:14:54 IST" name="closeParalelExe" finished-at="2025-07-31T16:14:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Configuration of parallel Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeParalelExe -->
+        <test-method is-config="true" signature="closeConnectionWithDB()[pri:0, instance:Vtiger_Framework.CreateContactGroup@5e5d171f]" started-at="2025-07-31T16:14:54 IST" name="closeConnectionWithDB" finished-at="2025-07-31T16:14:54 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnectionWithDB -->
+      </class> <!-- Vtiger_Framework.CreateContactGroup -->
+      <class name="Vtiger_Framework.CreateOrgGroup">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:15 IST" name="launchTheBrowser" finished-at="2025-07-31T16:14:17 IST" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:17 IST" name="login" finished-at="2025-07-31T16:14:18 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createNewOrgTest()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:18 IST" name="createNewOrgTest" finished-at="2025-07-31T16:14:44 IST" duration-ms="25317" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createNewOrgTest Test Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createNewOrgTest Test Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewOrgTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:44 IST" name="logout" finished-at="2025-07-31T16:14:54 IST" duration-ms="9834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:54 IST" name="login" finished-at="2025-07-31T16:14:54 IST" duration-ms="454" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caabb21e9aae2f7bd3f741b5afe8f548, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58493/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caabb21e9aae2f7bd3f741b5afe8f548]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caabb21e9aae2f7bd3f741b5afe8f548, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58493/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caabb21e9aae2f7bd3f741b5afe8f548
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at Generic_Utilities.WebDriverUtility.maximizetheWindow(WebDriverUtility.java:31)
+at Listners_Utilities.BaseClass.login(BaseClass.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createNewOrgTest_Excel()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:54 IST" name="createNewOrgTest_Excel" finished-at="2025-07-31T16:14:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caabb21e9aae2f7bd3f741b5afe8f548, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58493/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caabb21e9aae2f7bd3f741b5afe8f548]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caabb21e9aae2f7bd3f741b5afe8f548, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58493/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caabb21e9aae2f7bd3f741b5afe8f548
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at Generic_Utilities.WebDriverUtility.maximizetheWindow(WebDriverUtility.java:31)
+at Listners_Utilities.BaseClass.login(BaseClass.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[createNewOrgTest_Excel Test Execution Skipped]]>
+            </line>
+            <line>
+              <![CDATA[createNewOrgTest_Excel_3rd_script Test Execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewOrgTest_Excel -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:54 IST" name="logout" finished-at="2025-07-31T16:14:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:54 IST" name="login" finished-at="2025-07-31T16:14:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createNewOrgTest_Excel_3rd_script()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:54 IST" name="createNewOrgTest_Excel_3rd_script" finished-at="2025-07-31T16:14:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caabb21e9aae2f7bd3f741b5afe8f548, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58493/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caabb21e9aae2f7bd3f741b5afe8f548]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caabb21e9aae2f7bd3f741b5afe8f548, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58493/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caabb21e9aae2f7bd3f741b5afe8f548
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at Generic_Utilities.WebDriverUtility.maximizetheWindow(WebDriverUtility.java:31)
+at Listners_Utilities.BaseClass.login(BaseClass.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[createNewOrgTest_Excel_3rd_script Test Execution Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewOrgTest_Excel_3rd_script -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:54 IST" name="logout" finished-at="2025-07-31T16:14:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:Vtiger_Framework.CreateOrgGroup@7bedc48a]" started-at="2025-07-31T16:14:54 IST" name="closeTheBrowser" finished-at="2025-07-31T16:14:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- Vtiger_Framework.CreateOrgGroup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
