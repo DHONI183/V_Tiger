@@ -3,11 +3,7 @@ package Listners_Utilities;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-// changes for github
-
-
-
-// changes for push
+// Changes done in eclipse and push to github.
 
 public class IRetryAnalyserUtility implements IRetryAnalyzer{
 
